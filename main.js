@@ -4,6 +4,11 @@ const subtract = (firstNumber, secondNumber) => firstNumber - secondNumber;
 const multiply = (firstNumber, secondNumber) => firstNumber * secondNumber;
 const divide = (firstNumber, secondNumber) => firstNumber / secondNumber;
 
+// variables
+let firstNumber = 0;
+let operator = "";
+let secondNumber = 0;
+
 // log tests
 console.log(add(12, 15));
 console.log(subtract(40, 15));
