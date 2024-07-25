@@ -9,6 +9,20 @@ let firstNumber = 0;
 let operator = "";
 let secondNumber = 0;
 
+// operate function
+const operate = (firstNumber, secondNumber, operator) => {
+  switch (operator) {
+    case "add":
+      return add(firstNumber, secondNumber);
+    case "subtract":
+      return subtract(firstNumber, secondNumber);
+    case "multiply":
+      return multiply(firstNumber, secondNumber);
+    case "divide":
+      return divide(firstNumber, secondNumber);
+  }
+};
+
 // log tests
 console.log(add(12, 15));
 console.log(subtract(40, 15));
