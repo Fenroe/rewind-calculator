@@ -1,3 +1,5 @@
+// remember that 10 digits is the maximum screenspace, including decimal places
+
 // basic calculator operations
 const add = (firstNumber, secondNumber) => firstNumber + secondNumber;
 const subtract = (firstNumber, secondNumber) => firstNumber - secondNumber;

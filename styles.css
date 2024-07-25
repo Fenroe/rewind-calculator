@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  border: 10px solid black;
+  width: 320px;
+}
+
+.result-display {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 16px;
+  font-size: 48px;
+  font-family: monospace;
+}
+
+.row {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.button {
+  height: 100%;
+  flex: 1;
+}
+
+.big-button {
+  height: 100%;
+  flex: 2;
+}
